@@ -1,0 +1,165 @@
+body {
+    background-color: white;
+}
+
+img {
+    width: 230px;
+    height: 380px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 90px auto;
+    padding: 20px;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.6;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+
+    color: /*#8F78A9*/ black;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+	color: /*#DDC7F6*/white;
+	font-size: 80px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+
+}
+
+h2 {
+    color: /*#DDC7F6*/ #f19065;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.background{
+
+    background-image: url("../img/watercolour.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 720px;
+
+}
+
+.container{
+    padding: 1px;
+   /* box-shadow: 2px 2px 1px black; */
+    height: 415px;
+    padding-top: 155px;
+}
+
+
+.text {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+ .summary {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    background:  #f7e787;
+    text-align: center;
+
+
+    } 
+
+ .detail {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    background:  #ee667e;
+    text-align: center;
+
+
+    }  
+
+.Research {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    background:  #90cfd6;
+    text-align: center;
+
+
+    }  
+
+.Technology {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    background:  #47b89a;
+    text-align: center;
+
+
+    }  
+
+.Wireframe{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    background:  white;
+    text-align: center;
+
+
+    }  
+
+
+nav select {
+  display: none;
+}
+
+@media print {
+	body { font-size: 10pt }
+}
+
+@media screen and (max-width: 960px) { 
+	h1 {
+	color: #86A967;
+    font-size: 65px;
+	} 
+    h2 {
+        font-size: 50px;
+    }
+	nav ul     { display: none; }
+  	nav select { display: inline-block; }
+    .container { padding-top: 10px;
+                    height: 200px; }
+    .background { height: 320px; }
+
+    img {
+        width: 150px;
+        height: 250px;
+    }
+
+
+}
+
+@media handheld {
+	body { font-size: 10px }
+}
+
+@media screen, print {
+	body { line-height: 1.2 } 
+}
+
+
